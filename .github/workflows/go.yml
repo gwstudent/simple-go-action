@@ -19,6 +19,6 @@ jobs:
  
       
     - name: Build
-      run: docker run -e GO111MODULE=off golang:1.17.0-alpine go build main.go
+      run: docker run -e GO111MODULE=off golang:1.17.0-alpine go build ./main.go
 
    
