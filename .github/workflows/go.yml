@@ -19,6 +19,6 @@ jobs:
  
       
     - name: Build
-      run: docker run -it golang:1.17.0-alpine go build -v main.go
+      run: docker run -it golang:1.17.0-alpine go build 
 
    
